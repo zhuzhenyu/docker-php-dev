@@ -16,7 +16,7 @@
 | | |____vhost              vhost方便多域名绑定
 | | | |____default.conf
 | |____Dockerfile
-| |____logs					Nginx Access Log目录，方便查看日志
+| |____logs                 Nginx Access Log目录，方便查看日志
 |____php
 | |____Dockerfile
 |____www					
