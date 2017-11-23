@@ -1,0 +1,9 @@
+# General
+.DS_Store
+# Log Data
+*.log
+# MySQL Data
+./mysql/data
+
+# Env 
+.env
