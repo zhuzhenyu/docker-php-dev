@@ -27,21 +27,20 @@
 
 ### 使用说明：
 	
-	Docker版本支持：Docker 17.0+
+Docker版本支持：Docker 17.0+
 
-	Docker编排工具：Docker-compose 1.10+
+Docker编排工具：Docker-compose 1.10+
 
 
-	步骤：
-		```bash
-		git clone https://github.com/zhuzhenyu/docker-php-dev.git
-		cd docker-php-dev && mv .env-example .env
-		sudo docker-compose build
-		sudo docker-compose up -d
-		```
-	最后
-
-		**使用`docker ps -a 或者 docker-compose ps` 看是否正常运行**
+步骤：
+	```bash
+	git clone https://github.com/zhuzhenyu/docker-php-dev.git
+	cd docker-php-dev && mv .env-example .env
+	sudo docker-compose build
+	sudo docker-compose up -d
+	```
+最后
+	使用`docker ps -a 或者 docker-compose ps` 看是否正常运行
 
 
 
